@@ -1,0 +1,39 @@
+.navigation {
+    background: #2C2727;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation .logo {
+    width: 55px;
+    height: 55px;
+}
+
+.navigation .navigation-list {
+    display: flex;
+}
+
+.navigation-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation-list li a::after{
+    content: "";
+    display: block;
+    margin-top: 2px;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.2s linear;
+}
+
+.navigation-list li a:hover::after{
+    width: 100%;
+}
+
+.navigation-list li:not(:last-of-type) {
+    margin-right: 15px;
+}

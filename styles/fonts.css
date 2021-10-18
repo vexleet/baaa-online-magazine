@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Cinzel-Bold";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/Cinzel-Bold.ttf");
+}
+
+@font-face {
+    font-family: "FiraSans-Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/FiraSans-Regular.ttf");
+}
