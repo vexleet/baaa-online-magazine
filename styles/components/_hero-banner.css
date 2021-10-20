@@ -1,0 +1,21 @@
+.home-hero {
+    height: calc(100vh - 77.4px);
+}
+
+.home-hero header {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-hero-logo {
+    width: 500px;
+    margin-top: -150px;
+}
+
+.home-hero-title {
+    color: #fff;
+    font-size: 44px;
+}
