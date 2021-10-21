@@ -11,3 +11,10 @@
     font-weight: normal;
     src: url("../fonts/FiraSans-Regular.ttf");
 }
+
+@font-face {
+    font-family: "FiraSans-Bold";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/FiraSans-Bold.ttf");
+}

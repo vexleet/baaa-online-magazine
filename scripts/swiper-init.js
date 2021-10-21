@@ -1,8 +1,5 @@
-
-
 const swiper = new Swiper(".mySwiper", {
   effect: "coverflow",
-  grabCursor: true,
   centeredSlides: true,
   loop: true,
   slidesPerView: 3,
@@ -15,5 +12,9 @@ const swiper = new Swiper(".mySwiper", {
   },
   pagination: {
     el: ".swiper-pagination"
-  }
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
 });

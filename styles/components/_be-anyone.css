@@ -1,0 +1,42 @@
+.be-anyone {
+    height: 500px;
+    display: flex;
+}
+
+.be-anyone-content {
+    color: #fff;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.be-anyone::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.be-anyone-content .be-anyone-title {
+    font-size: 2.3em;
+    margin-bottom: 30px;
+}
+
+.be-anyone-content .be-anyone-title span {
+    display: block;
+    font-size: 1.35em;
+}
+
+.be-anyone-content p {
+    font-size: 1.3em;
+}
+
+.be-anyone-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}

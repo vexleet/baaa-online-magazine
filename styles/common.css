@@ -9,3 +9,18 @@
     position: absolute;
     z-index: -1;
 }
+
+.base-button {
+    color: #fff;
+    width: auto;
+    background: #FF7517;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    font-size: 0.9em; /*TODO: FIX*/
+    display: block;
+    text-decoration: none;
+    max-width: max-content;
+    margin-top: 20px; /* TODO: FIX */
+}

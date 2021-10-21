@@ -1,0 +1,63 @@
+.buy-game {
+    background: #3E3939;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+
+.buy-game-edition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buy-game-edition-images > img {
+    width: 350px;
+    margin: 0 15px;
+}
+
+.buy-game .is-hidden {
+    display: none;
+}
+
+.buy-game-edition-images {
+    display: flex;
+    align-items: center;
+}
+
+.buy-game-edition-images .buy-game-arrow-back,
+.buy-game-edition-images .buy-game-arrow-forward {
+    background: rgba(0, 0, 0, 0.3);
+    border: 2px solid #fff;
+    outline: none;
+    padding: 60px 10px;
+    color: #fff;
+    font-size: 1.3em;
+    cursor: pointer;;
+}
+
+.buy-game-edition-includes {
+    color: #fff;
+    max-width: 600px;
+}
+
+.buy-game-edition-title {
+    text-align: center;
+    font-size: 2.1em;
+    margin-bottom: 25px;
+}
+
+.buy-game-edition-includes li {
+    list-style-type: disc;
+}
+
+.buy-game-edition-includes li {
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+.buy-game-deluxe-edition-includes {
+    font-family: "FiraSans-Bold", sans-serif;
+    margin: 15px 0 5px;
+    font-size: 1.4em;
+}

@@ -43,7 +43,7 @@
             <section class="weapons-swiper">
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
+                        <div class="swiper-slide" data-target="#great-axe-modal">
                             <img src="images/weapon-card.png"/>
                         </div>
                         <div class="swiper-slide">
@@ -62,12 +62,50 @@
                             <img src="images/weapon-card.png"/>
                         </div>
                     </div>
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+<!--                    <div class="swiper-pagination"></div>-->
                 </div>
             </section>
         </section>
     </main>
 
+
+    <section id="great-axe-modal" class="weapon-modal">
+
+        <!-- Modal content -->
+        <article class="modal-content">
+<!--            <span class="close">&times;</span>-->
+
+            <article class="weapon-modal-content">
+                <h2 class="weapon-modal-title">Great Axe</h2>
+
+                <p class="weapon-modal-details">
+                    Great Axes are two-handed weapons that scale with Strength. It’s a weapon that excels at large, sweeping attacks. Adventurers will be able to progress two mastery trees: The Marauder (high damage and multi-hit abilities) and The Reaper (crowd control and escape prevention)
+                </p>
+
+                <p class="weapon-modal-sub">Strengths</p>
+
+                <ul class="weapon-modal-sub-list">
+                    <li>Great for cleaving 2 or more targets in melee</li>
+                    <li>Great self healing</li>
+                </ul>
+
+                <p class="weapon-modal-sub">Weaknesses</p>
+
+                <ul class="weapon-modal-sub-list">
+                    <li>Slow</li>
+                    <li>Majority of damage comes from Execute</li>
+                    <li>Most abilities can be interupted</li>
+                </ul>
+            </article>
+
+            <img class="weapon-modal-image" src="images/greate-axe-background.png" alt="Player in the air with Great Axe in his hands about to hit someone with his ability"/>
+        </article>
+
+    </section>
+
     <script src="scripts/swiper-init.js"></script>
+    <script src="scripts/modal.js"></script>
 </body>
 </html>
