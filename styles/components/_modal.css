@@ -1,6 +1,6 @@
 /* The Modal (background) */
 .weapon-modal {
-    display: none; /* Hidden by default */
+    display: block; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     padding-top: 100px; /* Location of the box */
@@ -18,7 +18,7 @@
     margin: auto;
     border: 1px solid #888;
     width: 90%;
-
+    position: relative;
     display: flex;
     background: #363031;
     justify-content: space-between;
@@ -35,26 +35,49 @@
 
 .weapon-modal-content {
     width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .weapon-modal-image {
     width: 450px;
 }
 
+.weapon-modal-content p,
+.weapon-modal-content li {
+    font-size: 1.3em;
+}
+
+.weapon-modal-sub {
+    font-family: FiraSans-Bold, sans-serif;
+    margin: 20px 0 10px;
+}
+
+.weapon-modal-sub-list li{
+    list-style-type: disc;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
 /* The Close Button */
 .close {
-    color: #aaaaaa;
+    color: #fff;
+    background: #2C2727;
     float: right;
-    font-size: 28px;
-    font-weight: bold;
     position: absolute;
     right: 5px;
     top: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-size: 2.3em;
+    font-weight: 100;
 }
 
 .close:hover,
 .close:focus {
-    color: #000;
-    text-decoration: none;
     cursor: pointer;
 }
