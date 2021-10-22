@@ -41,6 +41,8 @@
 
 .weapon-modal-image {
     width: 450px;
+    height: 480px;
+    object-fit: cover;
 }
 
 .weapon-modal-content p,

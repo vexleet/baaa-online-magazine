@@ -1,0 +1,30 @@
+.leveling-guide {
+    background: #3E3939;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.leveling-guide-wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.leveling-guide-wrapper img {
+    width: 100%;
+}
+
+.leveling-guide-title {
+    font-size: 2.3em;
+    margin-bottom: 15px;
+}
+
+.leveling-guide-subtitle {
+    font-family: FiraSans-Bold, sans-serif;
+    font-size: 1.5em;
+    margin: 15px 0 10px;
+}
+
+.leveling-guide article > p {
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
