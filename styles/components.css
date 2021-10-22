@@ -1,8 +1,8 @@
 @import "components/navigation.css";
-@import "components/_weapons-header.css";
-@import "components/_hero-banner.css";
-@import "components/_about.css";
-@import "components/_be-anyone.css";
-@import "components/_buy-game.css";
-@import "components/_modal.css";
-@import "components/_leveling-guide.css";
+@import "components/weapons-header.css";
+@import "components/hero-banner.css";
+@import "components/about.css";
+@import "components/be-anyone.css";
+@import "components/buy-game.css";
+@import "components/modal.css";
+@import "components/leveling-guide.css";
