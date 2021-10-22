@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Professions</title>
+    <link rel="stylesheet" href="styles/main.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+</head>
+<body>
+<header>
+    <nav class="navigation">
+        <a href="index.html">
+            <img class="logo" src="images/logo.svg" alt="Small logo of the game New World"/>
+        </a>
+
+        <ul class="navigation-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="weapons.html">Weapons</a></li>
+            <li><a href="#">Professions</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="weapons-header">
+        <img class="weapons-header-image" src="images/new-world-professions-header.png"
+             alt="Four players with their weapons out. Probably ready to fight something or someone"/>
+
+        <header class="weapons-header-content-wrapper">
+            <h1 class="weapons-header-title">Professions in New World</h1>
+
+            <p class="weapons-header-content">
+                New World gives the opportunity of players to do a lot of different professions.
+                Read below about the different professions you can level up in the game and become the best and richest.
+            </p>
+        </header>
+    </section>
+
+    <section class="weapons-showcase hero-image-wrapper">
+        <img class="weapons-showcase-image hero-image" src="images/weapons-section-background.png" alt=""/>
+
+        <section class="weapons-swiper">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" data-target="#armoring-modal">
+                        <img src="images/armoring-background-card.png"/>
+                    </div>
+                    <div class="swiper-slide" data-target="#sword-modal">
+                        <img src="images/sword-weapon-card.png"/>
+                    </div>
+                    <div class="swiper-slide" data-target="#musket-modal">
+                        <img src="images/musket-background-card.png"/>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <!--                    <div class="swiper-pagination"></div>-->
+            </div>
+        </section>
+    </section>
+</main>
+
+
+<section id="armoring-modal" class="weapon-modal">
+
+    <!-- Modal content -->
+    <article class="modal-content">
+        <span class="close" data-target="#armoring-modal">&times;</span>
+
+        <article class="weapon-modal-content">
+            <h2 class="weapon-modal-title">Armoring</h2>
+
+            <p class="weapon-modal-details">
+                Armoring is a crafting skill performed at the Forge and the Outfitting Station.
+                Armoring is one of the most important skills for later in the game. With
+                this profession you would be able to craft legendary armor with which
+                you would be able to kill anything without problems.
+            </p>
+        </article>
+
+        <img class="weapon-modal-image" src="images/greate-axe-background.png"
+             alt="Player in the air with Great Axe in his hands about to hit someone with his ability"/>
+    </article>
+
+</section>
+
+<section id="sword-modal" class="weapon-modal">
+    <!-- Modal content -->
+    <article class="modal-content">
+        <span class="close" data-target="#sword-modal">&times;</span>
+
+        <article class="weapon-modal-content">
+            <h2 class="weapon-modal-title">Sword</h2>
+
+            <p class="weapon-modal-details">
+                Swords damage scales primarily with strength but also benefits from dexterity. Swords can be used in
+                combination with a shield. You will be able to use two masteries: The Swordmaster (attacks that hinder
+                target) and The Defender (defensive abilities).
+            </p>
+
+            <p class="weapon-modal-sub">Strengths</p>
+
+            <ul class="weapon-modal-sub-list">
+                <li>Swords excel in close-quarters combat.</li>
+                <li>Swords are the only weapon that can be wielded with a shield.</li>
+                <li>While equipped with a shield, a sword user can block enemy attacks more effectively.</li>
+            </ul>
+
+            <p class="weapon-modal-sub">Weaknesses</p>
+
+            <ul class="weapon-modal-sub-list">
+                <li>Swords lack range and reach.</li>
+                <li>Sword abilities have long cooldowns</li>
+            </ul>
+        </article>
+
+        <img class="weapon-modal-image" src="images/sword-background.png"
+             alt="Player in the air with Great Axe in his hands about to hit someone with his ability"/>
+    </article>
+
+</section>
+
+<section id="musket-modal" class="weapon-modal">
+    <!-- Modal content -->
+    <article class="modal-content">
+        <span class="close" data-target="#musket-modal">&times;</span>
+
+        <article class="weapon-modal-content">
+            <h2 class="weapon-modal-title">Musket</h2>
+
+            <p class="weapon-modal-details">
+                Muskets' damage scale primarily with Dexterity but also scales with Intelligence. You can take two
+                masteries the Sharpshooter and the Trapper.
+            </p>
+
+            <p class="weapon-modal-sub">Strengths</p>
+
+            <ul class="weapon-modal-sub-list">
+                <li>High damage</li>
+                <li>Headshots deal extra damage</li>
+            </ul>
+
+            <p class="weapon-modal-sub">Weaknesses</p>
+
+            <ul class="weapon-modal-sub-list">
+                <li>Long reload time</li>
+                <li>Requires careful aiming</li>
+                <li>Requires ammo for every shot</li>
+            </ul>
+        </article>
+
+        <img class="weapon-modal-image" src="images/musket-background.png"
+             alt="Player in the air with Great Axe in his hands about to hit someone with his ability"/>
+    </article>
+
+</section>
+
+
+<script src="scripts/swiper-init.js"></script>
+<script src="scripts/modal.js"></script>
+</body>
+</html>
